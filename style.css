@@ -1,0 +1,169 @@
+.main{
+   height: 700px;
+   width: 100%;
+   background-color: gray;
+}
+.container{
+    /* display: flex; */
+    width: 100%;
+    
+   
+}
+.left{
+    float: left;
+    height: 70px;
+ position: relative;
+    width: 30%;
+    background-color: gray;
+}
+.right{
+   
+   
+    background-color:green;
+    height: 70px;
+}
+
+.c1{
+    /* display: flex; */
+    width: 100%;
+    
+   
+}
+.l1{
+    float: left;
+    height: 630px;
+ 
+    width: 30%;
+   
+
+   background-color: blanchedalmond;
+}
+.r1{
+    height: 630px;
+   
+    background-color:brown;
+   
+}
+.left img:first-child{
+float: left;
+margin-left: 30px;
+margin-top: 15px;
+height: 40px;
+border-radius: 80px;
+
+background-color: aliceblue;
+
+}
+.right img:first-child{
+    float: left;
+    margin-left: 30px;
+   
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 80px;
+    
+    background-color: aliceblue;
+    
+    }
+
+.ic{
+    position: absolute;
+    left: 70%;
+    top:25%;
+}
+i{
+    font-size: 35px;
+}
+
+.left img:last-child {
+    padding-top:22px ;
+    float: right;
+    height: 30px;
+
+    width: 30px; }
+
+   
+    .right img:last-child {
+        margin-top: -37px;
+        float: right;
+        height: 30px;
+    
+        width: 30px; }
+
+        h3{
+            padding-top: 20px;
+        }
+       
+        .search{
+         background-color: #DCDCDC;
+          
+          align-items: center;
+          /* border-radius: 10px; */
+           width: 100%;
+           height: 60px;
+        }
+        .searchform{
+            float: left;
+            
+
+        }
+        button{
+            float: left;
+            width:48px ;
+            height: 42px;
+            margin-top: 10px;
+            margin-left: 5px;
+            border: none!important;
+            background-color: white;
+            
+        }
+       
+        input{
+            width: 390px;
+            height: 40px;
+            margin-top: 10px;
+            /* border-radius: 20px; */
+            border: none!important;
+            
+        }
+        
+       
+        input:focus, input:focus{
+            outline: none;
+        } 
+       
+         /* input:visited {
+            border: none!important;
+           
+            box-shadow: none;
+          }
+          
+      
+          input:hover {
+            
+           
+            box-shadow: none;
+          }
+          
+         
+          input:active {
+            
+            box-shadow: none;
+            border: none!important;
+        }
+            */
+          
+
+
+
+
+
+
+      .search i{
+        font-size: 25px;
+        color: gray;
+      }
+
+      body{
+        margin: 0;
+      }
